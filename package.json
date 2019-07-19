@@ -1,0 +1,22 @@
+{
+  "name": "BlindControlServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.11.0",
+    "sequelize": "^5.10.1"
+  }
+}
